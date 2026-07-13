@@ -1,8 +1,6 @@
-import "./App.css"
-import Title from "./Title.jsx"
-import Product from "./Product.jsx";
+import "./App.css" 
 import ProductTab from "./ProductTab.jsx";
-import MsgBox from "./MsgBox.jsx";
+
 
 
 // function Description() {
@@ -15,12 +13,9 @@ function App() {
 
   return (
     <>
-      <MsgBox userName="Priyanshu " textColor="pink"/>
-      <MsgBox userName="Jp " textColor="yellow"/>
-      <MsgBox userName="khusal " textColor="blue"/>
+    <h3>Blockbuster deals on computer accessories | Shop now</h3>
       <ProductTab />
     </>
   );
-
 }
 export default App
