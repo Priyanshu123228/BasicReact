@@ -1,6 +1,7 @@
 import "./App.css" 
 import ProductTab from "./ProductTab.jsx";
 import Button from "./Button.jsx";
+import Form from "./Form.jsx";
 
 
 
@@ -16,7 +17,8 @@ function App() {
     <>
      {/* <h3>Blockbuster deals on computer accessories | Shop now</h3>
       <ProductTab />  */}
-      <Button/>
+      {/* <Button/> */}
+      <Form/>
     </>
   );
 }
